@@ -18,6 +18,8 @@ To install all the motion planning packages in your ROS1 workspace, clone the re
 git clone --recurse-submodules https://github.com/JRL-CARI-CNR-UNIBS/JRL-CARI_motion_planning.git 
 ```
 
+In your catkin workspace set `catkin config --install` and build with `catkin build -cs`.
+
 ### Step 3: Keep Submodules Updated
 
 Ensure that the submodules are always up to date with the following command:
