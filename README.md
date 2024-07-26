@@ -12,7 +12,7 @@ First, follow the instructions to download and install the [cnr_common](https://
 
 ### Step 2: Clone and Initialize Submodules
 
-To install all the motion planning packages in your ROS1 workspace, clone the repository with submodules:
+To install all the motion planning packages in your ROS2 workspace, clone the repository with submodules:
 
 ```bash
 git clone --recurse-submodules https://github.com/JRL-CARI-CNR-UNIBS/JRL-CARI_motion_planning.git 
