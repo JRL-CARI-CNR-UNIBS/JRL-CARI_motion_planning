@@ -22,3 +22,7 @@
 	path = moveit_collision_checker
 	url = https://github.com/JRL-CARI-CNR-UNIBS/moveit_collision_checker.git
 	branch = master
+[submodule "cell_cartesian"]
+	path = cell_cartesian
+	url = https://github.com/JRL-CARI-CNR-UNIBS/cell_cartesian.git
+	branch = master
