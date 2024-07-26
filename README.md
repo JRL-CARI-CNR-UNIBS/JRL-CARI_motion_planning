@@ -25,8 +25,7 @@ Ensure that the submodules are always up to date with the following command:
 ```bash
 git submodule update --init --recursive
 . update_submodules.sh
-
 ```
 
 ### Step 4: Build and Install
-In your catkin workspace set `catkin config --install` and build with `catkin build -cs`.
+In your colcon workspace build with `colcon build --symlink-install --continue-on-error`.
