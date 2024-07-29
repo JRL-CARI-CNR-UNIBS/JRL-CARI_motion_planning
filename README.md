@@ -23,6 +23,7 @@ git clone --recurse-submodules https://github.com/JRL-CARI-CNR-UNIBS/JRL-CARI_mo
 Ensure that the submodules are always up to date with the following command:
 
 ```bash
+cd cd JRL-CARI_motion_planning
 git submodule update --init --recursive
 . update_submodules.sh
 
