@@ -1,0 +1,24 @@
+name: update_submodules
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 6 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Update submodules
+      run: |
+        chmod +x update_submodules.sh 
+        ./update_submodules.sh
+    
+    - name: Push changes
+      uses: stefanzweifel/git-auto-commit-action@v4
